@@ -1,0 +1,7 @@
+{
+    "categories" : [
+        { "id": 1, "name": "Historical", "description": "Explore ancient and historical places" },
+        { "id": 2, "name": "Adventure", "description": "Thrilling and adventurous tours" },
+        { "id": 3, "name": "Relaxation", "description": "Peaceful and relaxing destinations" }
+      ]
+}

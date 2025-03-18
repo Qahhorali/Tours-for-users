@@ -1,0 +1,23 @@
+{
+    "users": [
+        {
+          "id": 1,
+          "name": "Ali Valiyev",
+          "email": "ali@example.com",
+          "age": 25
+        },
+        {
+          "id": 2,
+          "name": "Bek Anvarov",
+          "email": "bek@example.com",
+          "age": 30
+        },
+        {
+          "id": 3,
+          "name": "Diyor Karimov",
+          "email": "diyor@example.com",
+          "age": 28
+        }
+    ]
+}
+  

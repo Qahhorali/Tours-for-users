@@ -1,0 +1,28 @@
+{
+    "reviews":[
+        {
+          "id": 1,
+          "tour_id": 1,
+          "user_id": 2,
+          "rating": 5,
+          "comment": "Bu sayohat hayotimdagi eng yaxshi tajriba bo'ldi! Orol juda go'zal!",
+          "date": "2024-06-01"
+        },
+        {
+          "id": 2,
+          "tour_id": 2,
+          "user_id": 3,
+          "rating": 4,
+          "comment": "Tog'lar ajoyib! Yurish juda yoqdi, faqat ob-havo sal sovuq edi.",
+          "date": "2024-06-10"
+        },
+        {
+          "id": 3,
+          "tour_id": 3,
+          "user_id": 4,
+          "rating": 5,
+          "comment": "Bali plyajlari dam olish uchun ideal joy ekan, hammaga tavsiya qilaman!",
+          "date": "2024-07-05"
+        }
+    ]
+}
