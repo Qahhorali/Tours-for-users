@@ -1,4 +1,4 @@
-const API = 'http://localhost:5007/categories'
+const API = 'http://localhost:5008/categories'
 
 export const categoriesService = async () => {
     try {

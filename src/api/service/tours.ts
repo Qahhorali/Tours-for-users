@@ -1,4 +1,4 @@
-const API = 'http://localhost:5005/tours'
+const API = 'http://localhost:5006/tours'
 
 export const toursService = async () => {
     try {

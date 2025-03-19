@@ -48,7 +48,23 @@ function TourDetail() {
   console.log(result)
   return (
     <div className="tour-detail">
-      {tourDetailsData?.name}
+      {/* {tourDetailsData?.name}
+      {tourDetailsData?.description} */}
+      <p>Sayohat nomi : {tourDetailsData?.name}</p>
+      <p>{tourDetailsData?.description}</p>
+      <p>{tourDetailsData?.pack_includes}</p>
+      <h3>Sharhlar:</h3>
+      <ul>
+        {reviewsData
+          .filter(review => review.tour_id === Number(id))
+          .map(review => (
+            <li key={review.id}>
+              <p><strong>Reyting:</strong> {review.rating}</p>
+              <p><strong>Izoh:</strong> {review.comment}</p>
+              <p><strong>Kun:</strong> {review.date}</p>
+            </li>
+          ))}
+      </ul>
     </div>
   )
 }
